@@ -278,7 +278,6 @@ img {
     /* display: flex;
     justify-content: space-between; */
 }
-
 .filter-list {
     display: flex;
     flex-direction: row;
@@ -298,7 +297,6 @@ img {
     padding-right: 24px;
     border-radius: 4px;
     border: 1px var(--color-ocean);
-    
     font-size: 16px;
     font-weight: 500;
 }
@@ -324,7 +322,6 @@ img {
     align-content: flex-start;
     gap: 48px 24px;
     flex-wrap: wrap;
-    
 }
 
 .port-description {
@@ -350,7 +347,7 @@ img {
 
 
  
-/* ================Footer================= */
+/* ================Footer=============== */
 .footer {
     background-color: var(--color-navyblue);
     padding-top: 100px;
@@ -365,7 +362,6 @@ img {
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
-
 }
 .footer-logo {
     text-transform: uppercase;
