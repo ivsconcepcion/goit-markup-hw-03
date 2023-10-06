@@ -55,18 +55,14 @@ img {
 .header {
     background-color: var(--color-white);
     border-bottom: 1px solid var(--color-cornflower);
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 24px;
+    padding-bottom: 24px;
  }
 .header-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
- 
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
- 
  }
 .header-nav {
     display: inline-flex;
@@ -128,8 +124,7 @@ img {
 
 /* -/////////// INDEX PAGE ////////////- */
 /* -- Main-banner Section -- */
-
-.hero-container {
+.hero {
     background-color: var(--color-navyblue);
     padding-top: 188px;
     padding-bottom: 188px;
@@ -164,11 +159,11 @@ img {
 
 
 /* -- features Section -- */
-
-.features-container {
-
+.features {
     padding-top: 120px;
     padding-bottom: 120px;
+}
+.features-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -233,8 +228,6 @@ img {
 
 .team {
     background-color: var(--color-cloud);
-}
-.team-container {
     padding-top: 120px;
     padding-bottom: 120px;
 }
@@ -303,13 +296,15 @@ img {
     padding-left: 24px;
     padding-right: 24px;
     border-radius: 4px;
+    border: 1px var(--color-ocean);
     margin-bottom: 72px;
     font-size: 16px;
     font-weight: 500;
 }
 .filter-item:hover {
     background-color:var(--color-ocean);
-    color: var(--color-white)
+    color: var(--color-white);
+    cursor:grab;
 }
 .filter-item.active {
     background-color: var(--color-ocean);
@@ -322,16 +317,15 @@ img {
 .port-list {
     display: flex;
     flex-direction: row;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content: flex-start;
-    column-gap: 24px; 
     gap: 48px 24px;
     flex-wrap: wrap;
+    
 }
-.port-list-item {
-    text-align: left;
-}
+
 .port-description {
     padding-top: 32px;
     padding-bottom: 32px;
@@ -346,7 +340,7 @@ img {
     line-height: 24px;
     letter-spacing: 0.4px; 
     color: var(--color-navyblue);
-
+    margin-bottom: 8px;
 }
 .port-description-subtitle {
     color: var(--color-slate);
@@ -354,22 +348,12 @@ img {
 }
 
 
-
-
-/* == studio == */
-.studio-container {
-    padding-bottom: 120px;
-    padding-top: 120px;
-}
-.studio-title {
-    line-height: 52px;
-}
-.studio-content {
-    line-height: 24px;
-}  
+ 
 /* ================Footer================= */
 .footer {
     background-color: var(--color-navyblue);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 .footer-container {
     width: 1158px;
@@ -380,8 +364,7 @@ img {
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
-    padding-top: 100px;
-    padding-bottom: 100px;
+
 }
 .footer-logo {
     text-transform: uppercase;
